@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>result</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method="post" action="upload.php" enctype="multipart/form-data">
+            <label for="video">选择要上传的视频文件：</label>
+            <input type="file" id="video" name="video">
+            <br><br>
+            <input type="submit" value="上传">
+        </form>
+    </body>
+</html>
